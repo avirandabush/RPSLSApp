@@ -12,7 +12,7 @@ struct SplashView: View {
 
     var body: some View {
         if isActive {
-            GameView() // your main content
+            GameView()
         } else {
             VStack {
                 Image(systemName: "gamecontroller.fill")
